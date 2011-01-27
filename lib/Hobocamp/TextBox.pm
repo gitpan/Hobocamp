@@ -1,6 +1,6 @@
 package Hobocamp::TextBox;
 BEGIN {
-  $Hobocamp::TextBox::VERSION = '0.500';
+  $Hobocamp::TextBox::VERSION = '0.501';
 }
 
 use v5.12.2;
@@ -42,7 +42,7 @@ Hobocamp::TextBox - Widget to display and edit the contents of a file
 
 =head1 VERSION
 
-version 0.500
+version 0.501
 
 =head1 DESCRIPTION
 

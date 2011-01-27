@@ -12,6 +12,6 @@ meta-spec:
 name: Hobocamp
 requires:
   ExtUtils::CChecker: 0
-  Moose: 1.00
+  Moose: 0
   Sub::Exporter: 0
-version: 0.500
+version: 0.501

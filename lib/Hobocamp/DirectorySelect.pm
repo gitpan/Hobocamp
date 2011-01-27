@@ -1,6 +1,6 @@
 package Hobocamp::DirectorySelect;
 BEGIN {
-  $Hobocamp::DirectorySelect::VERSION = '0.500';
+  $Hobocamp::DirectorySelect::VERSION = '0.501';
 }
 
 use v5.12.2;
@@ -42,7 +42,7 @@ Hobocamp::DirectorySelect - Widget to select a directory
 
 =head1 VERSION
 
-version 0.500
+version 0.501
 
 =head1 DESCRIPTION
 

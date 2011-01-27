@@ -23,6 +23,7 @@ lib/Hobocamp/Menu.pm
 lib/Hobocamp/MessageBox.pm
 lib/Hobocamp/Pause.pm
 lib/Hobocamp/RadioList.pm
+lib/Hobocamp/Role/List.pm
 lib/Hobocamp/Role/Widget.pm
 lib/Hobocamp/Role/Window.pm
 lib/Hobocamp/TextBox.pm

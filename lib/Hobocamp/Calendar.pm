@@ -1,6 +1,6 @@
 package Hobocamp::Calendar;
 BEGIN {
-  $Hobocamp::Calendar::VERSION = '0.500';
+  $Hobocamp::Calendar::VERSION = '0.501';
 }
 
 use v5.12.2;
@@ -54,7 +54,7 @@ Hobocamp::Calendar - calendar widget
 
 =head1 VERSION
 
-version 0.500
+version 0.501
 
 =head1 DESCRIPTION
 

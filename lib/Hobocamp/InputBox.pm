@@ -1,6 +1,6 @@
 package Hobocamp::InputBox;
 BEGIN {
-  $Hobocamp::InputBox::VERSION = '0.500';
+  $Hobocamp::InputBox::VERSION = '0.501';
 }
 
 use v5.12.2;
@@ -49,7 +49,7 @@ Hobocamp::InputBox - text input widget
 
 =head1 VERSION
 
-version 0.500
+version 0.501
 
 =head1 DESCRIPTION
 

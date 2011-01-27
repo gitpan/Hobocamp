@@ -1,6 +1,6 @@
 package Hobocamp::Role::Window;
 BEGIN {
-  $Hobocamp::Role::Window::VERSION = '0.500';
+  $Hobocamp::Role::Window::VERSION = '0.501';
 }
 
 use v5.12.2;
@@ -44,7 +44,7 @@ Hobocamp::Role::Window - A role for adjusting windows (back title, ASCII lines, 
 
 =head1 VERSION
 
-version 0.500
+version 0.501
 
 =head1 AUTHOR
 

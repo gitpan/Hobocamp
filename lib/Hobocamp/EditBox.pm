@@ -1,6 +1,6 @@
 package Hobocamp::EditBox;
 BEGIN {
-  $Hobocamp::EditBox::VERSION = '0.500';
+  $Hobocamp::EditBox::VERSION = '0.501';
 }
 
 use v5.12.2;
@@ -42,7 +42,7 @@ Hobocamp::EditBox - Widget to edit text in a file
 
 =head1 VERSION
 
-version 0.500
+version 0.501
 
 =head1 DESCRIPTION
 

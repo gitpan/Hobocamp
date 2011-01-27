@@ -1,6 +1,6 @@
 package Hobocamp::FileSelect;
 BEGIN {
-  $Hobocamp::FileSelect::VERSION = '0.500';
+  $Hobocamp::FileSelect::VERSION = '0.501';
 }
 
 use v5.12.2;
@@ -42,7 +42,7 @@ Hobocamp::FileSelect - Widget to select a file
 
 =head1 VERSION
 
-version 0.500
+version 0.501
 
 =head1 DESCRIPTION
 

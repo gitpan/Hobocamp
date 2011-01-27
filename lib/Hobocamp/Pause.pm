@@ -1,6 +1,6 @@
 package Hobocamp::Pause;
 BEGIN {
-  $Hobocamp::Pause::VERSION = '0.500';
+  $Hobocamp::Pause::VERSION = '0.501';
 }
 
 use v5.12.2;
@@ -44,7 +44,7 @@ Hobocamp::Pause - Timed message box widget
 
 =head1 VERSION
 
-version 0.500
+version 0.501
 
 =head1 DESCRIPTION
 

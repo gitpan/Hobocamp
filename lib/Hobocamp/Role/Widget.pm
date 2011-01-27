@@ -1,6 +1,6 @@
 package Hobocamp::Role::Widget;
 BEGIN {
-  $Hobocamp::Role::Widget::VERSION = '0.500';
+  $Hobocamp::Role::Widget::VERSION = '0.501';
 }
 
 use v5.12.2;
@@ -71,7 +71,7 @@ Hobocamp::Role::Widget - A role for all widgets
 
 =head1 VERSION
 
-version 0.500
+version 0.501
 
 =head1 SYNOPSIS
 

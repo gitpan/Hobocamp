@@ -1,6 +1,6 @@
 package Hobocamp::YesNo;
 BEGIN {
-  $Hobocamp::YesNo::VERSION = '0.500';
+  $Hobocamp::YesNo::VERSION = '0.501';
 }
 
 use v5.12.2;
@@ -36,7 +36,7 @@ Hobocamp::YesNo - yes or no prompt
 
 =head1 VERSION
 
-version 0.500
+version 0.501
 
 =head1 DESCRIPTION
 

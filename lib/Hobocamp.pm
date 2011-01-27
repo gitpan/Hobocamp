@@ -1,6 +1,6 @@
 package Hobocamp;
 BEGIN {
-  $Hobocamp::VERSION = '0.500';
+  $Hobocamp::VERSION = '0.501';
 }
 
 use v5.12.2;
@@ -69,7 +69,7 @@ Hobocamp - Moose-based interface to dialog (simple text based GUI)
 
 =head1 VERSION
 
-version 0.500
+version 0.501
 
 =head1 SYNOPSIS
 

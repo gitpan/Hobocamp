@@ -1,6 +1,6 @@
 package Hobocamp::Dialog;
 BEGIN {
-  $Hobocamp::Dialog::VERSION = '0.500';
+  $Hobocamp::Dialog::VERSION = '0.501';
 }
 
 use v5.12.2;
@@ -92,7 +92,7 @@ Hobocamp::Dialog - Perl access to L<dialog(1)>s widget set
 
 =head1 VERSION
 
-version 0.500
+version 0.501
 
 =head1 SYNOPSIS
 
