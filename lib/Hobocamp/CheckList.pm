@@ -1,9 +1,9 @@
 package Hobocamp::CheckList;
-BEGIN {
-  $Hobocamp::CheckList::VERSION = '0.501';
+{
+  $Hobocamp::CheckList::VERSION = '0.600';
 }
 
-use v5.12.2;
+use v5.10;
 use warnings;
 
 # ABSTRACT: Check list widget
@@ -61,7 +61,7 @@ Hobocamp::CheckList - Check list widget
 
 =head1 VERSION
 
-version 0.501
+version 0.600
 
 =head1 DESCRIPTION
 

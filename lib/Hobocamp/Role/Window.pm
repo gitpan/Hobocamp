@@ -1,9 +1,9 @@
 package Hobocamp::Role::Window;
-BEGIN {
-  $Hobocamp::Role::Window::VERSION = '0.501';
+{
+  $Hobocamp::Role::Window::VERSION = '0.600';
 }
 
-use v5.12.2;
+use v5.10;
 use warnings;
 
 # ABSTRACT: A role for adjusting windows (back title, ASCII lines, etc)
@@ -22,6 +22,18 @@ has 'backtitle' => (
         $self->redraw;
     }
 );
+
+has 'ascii_lines' => (
+    'is'      => 'rw',
+    'isa'     => 'Bool',
+    'default' => 0,
+);
+
+before 'run' => sub {
+    my ($self) = @_;
+
+    Hobocamp::Dialog::_set_ascii_lines_state($self->ascii_lines);
+};
 
 sub redraw {
     if (shift->backtitle) {
@@ -44,7 +56,7 @@ Hobocamp::Role::Window - A role for adjusting windows (back title, ASCII lines, 
 
 =head1 VERSION
 
-version 0.501
+version 0.600
 
 =head1 AUTHOR
 

@@ -1,9 +1,9 @@
 package Hobocamp::Menu;
-BEGIN {
-  $Hobocamp::Menu::VERSION = '0.501';
+{
+  $Hobocamp::Menu::VERSION = '0.600';
 }
 
-use v5.12.2;
+use v5.10;
 use warnings;
 
 # ABSTRACT: select 1 item from a list
@@ -56,7 +56,7 @@ Hobocamp::Menu - select 1 item from a list
 
 =head1 VERSION
 
-version 0.501
+version 0.600
 
 =head1 DESCRIPTION
 

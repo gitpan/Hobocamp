@@ -1,9 +1,9 @@
 package Hobocamp::RadioList;
-BEGIN {
-  $Hobocamp::RadioList::VERSION = '0.501';
+{
+  $Hobocamp::RadioList::VERSION = '0.600';
 }
 
-use v5.12.2;
+use v5.10;
 use warnings;
 
 # ABSTRACT: Radio box widget
@@ -61,7 +61,7 @@ Hobocamp::RadioList - Radio box widget
 
 =head1 VERSION
 
-version 0.501
+version 0.600
 
 =head1 DESCRIPTION
 

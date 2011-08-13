@@ -1,9 +1,9 @@
 package Hobocamp::Role::Widget;
-BEGIN {
-  $Hobocamp::Role::Widget::VERSION = '0.501';
+{
+  $Hobocamp::Role::Widget::VERSION = '0.600';
 }
 
-use v5.12.2;
+use v5.10;
 use warnings;
 
 # ABSTRACT: A role for all widgets
@@ -13,6 +13,9 @@ use Moose::Role;
 requires 'run';
 
 use Hobocamp::Dialog;
+
+# core
+use Scalar::Util qw();
 
 has 'title' => (
     'is'      => 'ro',
@@ -43,6 +46,12 @@ has 'value' => (
     'isa' => 'Any',
 );
 
+has 'auto_scale' => (
+    'is'      => 'rw',
+    'isa'     => 'Bool',
+    'default' => 1
+);
+
 sub hide {
     return Hobocamp::Dialog::dlg_clear();
 }
@@ -56,6 +65,18 @@ sub _get_user_input_result {
 
     return Hobocamp::Dialog::_dialog_result();
 }
+
+before 'run' => sub {
+    my ($self) = @_;
+
+    return unless ($self->auto_scale);
+
+    given (Scalar::Util::blessed($self)) {
+        when ('Hobocamp::Menu') {
+            $self->menu_height(scalar(@{$self->items}));
+        }
+    }
+};
 
 no Moose::Role;
 
@@ -71,7 +92,7 @@ Hobocamp::Role::Widget - A role for all widgets
 
 =head1 VERSION
 
-version 0.501
+version 0.600
 
 =head1 SYNOPSIS
 
